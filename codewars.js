@@ -25,3 +25,9 @@ function validatePIN (pin) {
       return true 
     }
 }
+
+//Функция выводит предложение приветствия с введенным пользователе именем
+function greet(name){
+    const gretting = `Hello, ${name} how are you doing today?`
+    return gretting
+  }
