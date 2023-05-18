@@ -84,3 +84,5 @@ function makeUpperCase(str) {
   }
 //18
 var myStr = "FirstLine\n\t\\SecondLine\nThirdLine";
+//19
+const myStr = "This is the start" + " " + "This is the end."; // Change this line
