@@ -77,3 +77,8 @@ function greet (name, owner) {
   }
     return "Hello guest";
 }
+//17
+function makeUpperCase(str) {
+    let result = str.toUpperCase();
+    return result
+  }
