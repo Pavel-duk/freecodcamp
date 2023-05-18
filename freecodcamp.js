@@ -65,3 +65,15 @@ const myStr = "I am a \"double quoted\" string inside \"double quotes\".";
 //14
 const myStr = '<a href="http://www.example.com" target="_blank">Link</a>';
 //15
+const stringToNumber = function(str){
+    var a = str
+    a = Number(str);
+    return a;
+  }
+//16
+function greet (name, owner) {
+    if (name == owner) {
+    return "Hello boss";
+  }
+    return "Hello guest";
+}
