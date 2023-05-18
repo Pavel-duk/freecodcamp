@@ -82,3 +82,5 @@ function makeUpperCase(str) {
     let result = str.toUpperCase();
     return result
   }
+//18
+var myStr = "FirstLine\n\t\\SecondLine\nThirdLine";
