@@ -36,3 +36,8 @@ function greet(name){
   const gretting = `Hello, ${name} how are you doing today?`
   return gretting
 }
+//остаток от деления и округление к меньшему числу
+function litres(time) {
+  var litr = Math.floor(time/2);
+  return litr;
+}
