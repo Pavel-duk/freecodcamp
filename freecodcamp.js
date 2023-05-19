@@ -89,3 +89,6 @@ const myStr = "This is the start" + " " + "This is the end."; // Change this lin
 //20 
 let myStr = "This is the first sentence.";
 myStr += " This is the second sentence.";
+//21
+onst myName = "Pavel";
+const myStr = "My name is " + myName + "and I am well!";
