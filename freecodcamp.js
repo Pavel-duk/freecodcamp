@@ -92,3 +92,7 @@ myStr += " This is the second sentence.";
 //21
 onst myName = "Pavel";
 const myStr = "My name is " + myName + "and I am well!";
+//22
+const someAdjective = "My cat is cool";
+let myStr = "Learning to code is ";
+myStr += someAdjective;
