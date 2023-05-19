@@ -96,3 +96,9 @@ const myStr = "My name is " + myName + "and I am well!";
 const someAdjective = "My cat is cool";
 let myStr = "Learning to code is ";
 myStr += someAdjective;
+//23
+let lastNameLength = 0;
+const lastName = "Lovelace";
+
+// Only change code below this line
+lastNameLength = lastName.length;
