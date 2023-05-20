@@ -41,3 +41,10 @@ function litres(time) {
   var litr = Math.floor(time/2);
   return litr;
 }
+//true or false
+function boolToWord( bool ){
+  if (bool) {
+    return "Yes"
+  }
+  return "No"
+}
