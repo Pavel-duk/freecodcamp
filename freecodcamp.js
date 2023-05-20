@@ -155,3 +155,8 @@ const myArray = [["stroka"],[45,"stroka"]];
 //33
 const myArray = [50, 60, 70];
 var myData = myArray[0];
+//34
+// Setup
+const myArray = [18, 64, 99];
+myArray[0] = 45;
+// Only change code below this line
