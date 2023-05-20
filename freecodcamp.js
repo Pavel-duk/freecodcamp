@@ -291,5 +291,14 @@ function trueOrFalse(wasThatTrue) {
 
 
   // Only change code above this line
+//50
+// Setup
+function testEqual(val) {
+  if (val == 12) { // Change this line
+    return "Equal";
+  }
+  return "Not Equal";
+}
 
+testEqual(10);
 }
