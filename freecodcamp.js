@@ -149,3 +149,6 @@ const wordBlanks = "My " + myAdjective + " " + myNoun + " really " + myAdverb + 
 //31
 // Only change code below this line
 const myArray = ["srtoka", 45];
+//32
+// Only change code below this line
+const myArray = [["stroka"],[45,"stroka"]];
