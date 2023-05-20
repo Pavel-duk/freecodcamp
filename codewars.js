@@ -48,3 +48,10 @@ function boolToWord( bool ){
   }
   return "No"
 }
+//true and false
+function booleanToString(b){
+  if (b) {
+    return "true";
+  }
+  return "false";
+}
