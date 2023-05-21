@@ -90,3 +90,30 @@ function oddOrEven(array) {
   } 
   return "even";
 }
+//переворот слов в строке предложении
+function reverseWords(str) {
+  let list = str.split(' ');
+  console.log(list);
+  var nameLengths = list.map(function(name) {
+    return name.split("").reverse().join("");
+  }); 
+  console.log(nameLengths);
+  list = nameLengths.join(' ');
+  return list;
+}
+//логические переменные
+function lovefunc(flower1, flower2){
+  let n = 0;
+  if (flower1%2===0){
+     n+=1;
+  }
+  if (flower2%2===0){
+     n+=1;
+  } 
+  console.log(n);
+  if (n%2===0){
+    return false;
+  }
+  return true;
+}
+
