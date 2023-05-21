@@ -116,4 +116,25 @@ function lovefunc(flower1, flower2){
   }
   return true;
 }
+//вычисление среднего бала и оценка
+function getGrade (s1, s2, s3) {
+  console.log(s1, s2, s3);
+  let sum = (s1+s2+s3)/3;
+  console.log(sum);
+  if (sum >= 90){
+   return "A" ;
+  }
+  if (sum >= 80) {
+    return "B";
+  }
+  if (sum >= 70) {
+    return "C";
+  }
+  if (sum >= 60) {
+    return "D";
+  }
+  if (sum >= 0) {
+    return "F";
+  }
 
+}
