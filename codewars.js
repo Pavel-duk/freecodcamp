@@ -55,3 +55,18 @@ function booleanToString(b){
   }
   return "false";
 }
+//замена элементов в строке
+function fakeBin(x){
+  let arr = x.split('');
+  console.log(arr);
+  var newList = arr.map(function(item) {
+    if(item < 5) {
+      return item = 0;
+    } else if (item >= 5) {
+      return item = 1;
+    }
+  });
+  let finStr = newList.join("");
+  console.log(newList);
+  return finStr
+}
