@@ -147,3 +147,9 @@ function smash (words) {
   let list = words.join(" ");
   return list;
 };
+//из строки в массив 
+function stringToArray(string){
+  let list = string.split(' ');
+	return list;
+
+}
