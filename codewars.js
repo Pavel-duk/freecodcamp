@@ -70,3 +70,12 @@ function fakeBin(x){
   console.log(newList);
   return finStr
 }
+//перемножение всех элементов массива
+function grow(x){
+  var total = 1;
+
+  for (var i = 0; i < x.length; ++i) {
+    total *= x[i];
+  }
+  return total;
+}
