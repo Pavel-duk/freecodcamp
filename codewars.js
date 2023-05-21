@@ -79,3 +79,14 @@ function grow(x){
   }
   return total;
 }
+//проверка на четность суммы массива
+function oddOrEven(array) {
+  var total = 1;
+  for (var i = 0; i < array.length; ++i) {
+    total += array[i];
+  }
+  if (total%2===0){
+    return "odd";
+  } 
+  return "even";
+}
