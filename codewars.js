@@ -138,3 +138,9 @@ function getGrade (s1, s2, s3) {
   }
 
 }
+//поиск элемента в строке и его удаление(всех таких элементов)
+function removeExclamationMarks(s) {
+  const regExp = "!";
+  
+  return s.replace(/!/g, '');
+}
