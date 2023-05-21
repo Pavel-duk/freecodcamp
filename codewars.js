@@ -153,3 +153,9 @@ function stringToArray(string){
 	return list;
 
 }
+//выбрать инициалы из строки
+function abbrevName(name){
+  let list = name.split(' ');
+  let str = list[0][0] + "." + list[1][0];
+  return str.toUpperCase() ;
+}
